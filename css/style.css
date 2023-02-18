@@ -1,0 +1,26 @@
+.mmh1 {
+    position: fixed;
+    left: 0;
+    top: 40px;
+    right: 0;
+    background: white;
+}
+
+@media screen and (max-width:992px) {
+    .bnm{
+        display: none;
+    }
+}
+@media screen and (min-width:992px) {
+    .bnv{
+        display: none;
+    }
+}
+.sell {
+    background-color: #2e003f;
+    background-image: url(../pic/tophead.jpg) ;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 38px;
+}
