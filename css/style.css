@@ -2,9 +2,6 @@ body {
     font-family: IRANSansWeb;
     color: #3d3d3d;
 }
-.sliderds {
-    z-index: 1;
-}
 .mmh1 {
     position: fixed;
     left: 0;
@@ -47,11 +44,7 @@ body {
     color: white;
 
 }
-.mhead i:hover {
-    color: white;
-}
 .mhead i a {
-    color: #ffffff;
     padding: 0 5px 10px 8px;
     text-decoration: none !important;
     list-style: none;
@@ -89,4 +82,26 @@ body {
 }
 .zx {
     margin-top: 150px;
+}
+.zc:hover {
+    color: #ffffff;
+}
+.zv {
+    text-align: center;
+    color: #7c2191;
+}
+.zv a {
+    text-decoration: none;
+    color: #7c2191;
+    display: block;
+}
+.zv i {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.zb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
 }
