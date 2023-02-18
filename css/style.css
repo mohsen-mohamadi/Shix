@@ -1,3 +1,7 @@
+body {
+    font-family: IRANSansWeb;
+    color: #3d3d3d;
+}
 .mmh1 {
     position: fixed;
     left: 0;
@@ -6,6 +10,48 @@
     background: white;
 }
 
+.mhead {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: white;
+}
+.mhead ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.mhead ul li {
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+}
+.mhead a {
+    color: #444444;
+    padding: 0 5px 10px 8px;
+    text-decoration: none !important;
+    list-style: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.mmhover:hover {
+    background: #7c2191;
+    height: 100%;
+
+}
+.mmhover i:hover {
+    color: white;
+}
+.mhead i {
+    font-size: 15px;
+    color: #7c2191;
+}
+@media screen and (max-width:992px) {
+    .hidden{
+        display: none !important;
+        visibility: hidden !important;    }
+}
 @media screen and (max-width:992px) {
     .bnm{
         display: none;
@@ -16,6 +62,7 @@
         display: none;
     }
 }
+
 .sell {
     background-color: #2e003f;
     background-image: url(../pic/tophead.jpg) ;
@@ -23,4 +70,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     height: 38px;
+}
+.fvg {
+    justify-content: center;
 }
