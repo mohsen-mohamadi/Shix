@@ -2,12 +2,16 @@ body {
     font-family: IRANSansWeb;
     color: #3d3d3d;
 }
+.sliderds {
+    z-index: 1;
+}
 .mmh1 {
     position: fixed;
     left: 0;
     top: 40px;
     right: 0;
     background: white;
+    z-index: 993;
 }
 
 .mhead {
@@ -37,11 +41,19 @@ body {
 }
 .mmhover:hover {
     background: #7c2191;
+    border-radius: 0 0 4px 4px;
     height: 100%;
+    color: white;
 
 }
-.mmhover i:hover {
+.mhead i:hover {
     color: white;
+}
+.mhead i a {
+    color: #ffffff;
+    padding: 0 5px 10px 8px;
+    text-decoration: none !important;
+    list-style: none;
 }
 .mhead i {
     font-size: 15px;
