@@ -117,3 +117,39 @@ poi {
     justify-content: center;
     /* width: 100vh; */
 }
+------------------------------
+/* .box {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+  }
+  .box img {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    transition: all 0.5s;
+    transform: scale(1.1, 1.1);
+    top: 0;
+    left: 0;
+  }
+  .box:hover img {
+    transform: scale(1, 1);
+  }
+  .box .light {
+    width: 600px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    position: absolute;
+    top: -80px;
+    right: -400px;
+    transform: rotate(45deg);
+  }
+  .box:hover .light {
+    top: 190px;
+    right: 270px;
+  } */
