@@ -1,0 +1,155 @@
+body {
+    font-family: IRANSansWeb;
+    color: #3d3d3d;
+}
+.mmh1 {
+    position: fixed;
+    left: 0;
+    top: 40px;
+    right: 0;
+    background: white;
+    z-index: 993;
+}
+
+.mhead {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+}
+.mhead ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.mhead ul li {
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+}
+.mhead a {
+    color: #444444;
+    padding: 0 5px 10px 8px;
+    text-decoration: none !important;
+    list-style: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.mmhover:hover {
+    background: #7c2191;
+    border-radius: 0 0 4px 4px;
+    height: 100%;
+    color: white;
+}
+.mhead i a {
+    padding: 0 5px 10px 8px;
+    text-decoration: none !important;
+    list-style: none;
+}
+.mhead i {
+    font-size: 15px;
+    color: #7c2191;
+}
+@media screen and (max-width:992px) {
+    .hidden{
+        display: none !important;
+        visibility: hidden !important;    }
+}
+@media screen and (max-width:992px) {
+    .bnm{
+        display: none;
+    }
+}
+@media screen and (min-width:992px) {
+    .bnv{
+        display: none;
+    }
+}
+.sell {
+    background-color: #2e003f;
+    background-image: url(../pic/tophead.jpg) ;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 38px;
+}
+.fvg {
+    justify-content: center;
+}
+.zx {
+    margin-top: 150px;
+}
+.zc:hover {
+    color: #ffffff;
+}
+.zv {
+    text-align: center;
+    color: #7c2191;
+}
+.zv a {
+    text-decoration: none;
+    color: #7c2191;
+    display: block;
+}
+.zv i {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.zb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 10px; */
+}
+poi {
+    background-color: aqua;
+    margin-top: 30px;
+    /* position: relative; */
+    overflow: hidden;
+}
+.poi img {
+    height: 318px;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* width: 100vh; */
+}
+------------------------------
+/* .box {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+  }
+  .box img {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    transition: all 0.5s;
+    transform: scale(1.1, 1.1);
+    top: 0;
+    left: 0;
+  }
+  .box:hover img {
+    transform: scale(1, 1);
+  }
+  .box .light {
+    width: 600px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    position: absolute;
+    top: -80px;
+    right: -400px;
+    transform: rotate(45deg);
+  }
+  .box:hover .light {
+    top: 190px;
+    right: 270px;
+  } */
