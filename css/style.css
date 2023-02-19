@@ -105,3 +105,20 @@ body {
     justify-content: center;
     /* gap: 10px; */
 }
+poi {
+    background-color: aqua;
+    margin-top: 30px;
+    /* position: relative; */
+    overflow: hidden;
+    
+    /* margin: 10px; */
+    /* padding: 10px; */
+}
+.poi img {
+    height: 318px;
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* width: 100vh; */
+}
