@@ -1,6 +1,14 @@
 body {
     font-family: IRANSansWeb;
     color: #3d3d3d;
+    font-size: 13px;
+}
+.mhead {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
 }
 .mmh1 {
     position: fixed;
@@ -9,14 +17,6 @@ body {
     right: 0;
     background: white;
     z-index: 993;
-}
-
-.mhead {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: white;
 }
 .mhead ul {
     width: 100%;
@@ -52,14 +52,23 @@ body {
     font-size: 15px;
     color: #7c2191;
 }
+.zx {
+    margin-top: 150px;
+}
 @media screen and (max-width:992px) {
     .hidden{
         display: none !important;
         visibility: hidden !important;    }
 }
 @media screen and (max-width:992px) {
+    body {
+        font-size: 11px;
+    }
     .bnm{
         display: none;
+    }
+    .zx {
+        margin-top: 110px;
     }
 }
 @media screen and (min-width:992px) {
@@ -78,9 +87,7 @@ body {
 .fvg {
     justify-content: center;
 }
-.zx {
-    margin-top: 150px;
-}
+
 .zc:hover {
     color: #ffffff;
 }
@@ -97,26 +104,25 @@ body {
     font-size: 25px;
     margin-bottom: 10px;
 }
-.zb {
+/* .zb {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* gap: 10px; */
+    gap: 10px;
 }
 poi {
     background-color: aqua;
     margin-top: 30px;
-    /* position: relative; */
+    position: relative;
     overflow: hidden;
-}
-.poi img {
+} */
+/* .poi img {
     height: 318px;
-    /* position: absolute; */
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* width: 100vh; */
-}
+} */
 ------------------------------
 /* .box {
     width: 400px;
