@@ -42,7 +42,6 @@ body {
     border-radius: 0 0 4px 4px;
     height: 100%;
     color: white;
-
 }
 .mhead i a {
     padding: 0 5px 10px 8px;
@@ -68,7 +67,6 @@ body {
         display: none;
     }
 }
-
 .sell {
     background-color: #2e003f;
     background-image: url(../pic/tophead.jpg) ;
@@ -110,9 +108,6 @@ poi {
     margin-top: 30px;
     /* position: relative; */
     overflow: hidden;
-    
-    /* margin: 10px; */
-    /* padding: 10px; */
 }
 .poi img {
     height: 318px;
