@@ -155,13 +155,13 @@ poi {
     width: 800px;
     height: 250px;
     background-color: rgba(255, 255, 255, 0.3);
-    transition: all 0.5s;
+    transition: all 0.7s;
     position: absolute;
     top: -330px;
     right: -400px;
     transform: rotate(45deg);
   }
   .box:hover .light {
-    top: 350px;
-    right: 310px;
+    top: 340px;
+    right: 400px;
   }
