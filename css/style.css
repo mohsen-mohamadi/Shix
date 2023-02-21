@@ -152,16 +152,73 @@ poi {
     transform: scale(1, 1);
   }
   .box .light {
-    width: 800px;
+    width: 1000px;
     height: 250px;
     background-color: rgba(255, 255, 255, 0.3);
-    transition: all 0.7s;
+    transition: all 0.9s;
     position: absolute;
-    top: -330px;
-    right: -400px;
+    top: -240px;
+    right: -630px;
     transform: rotate(45deg);
   }
   .box:hover .light {
     top: 340px;
     right: 400px;
+  }
+  .product {
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  .mki {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+
+  }
+  .product img {
+    border-radius: 10px;
+  }
+  .product .badge {
+    background-color: #7c2191;
+    font-size: 17px;
+    float: left;
+    border-radius: 30px;
+  }
+  .price{
+    float: left;
+    justify-self: center;
+    clear: right;
+    padding: 5px;
+    margin-left: 5px;
+  }
+  .prices {
+    text-align: left;
+    clear: right;
+    /* float: left; */
+  }
+  .product a {
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    background-color: #d1d1d1;
+    color: #949494;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+  .product .see {
+    width: 100%;
+    background-color: #7c2191;
+    color: #ffffff;
+    transition: all 0.5s;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    opacity: 0;
+    padding: 10px;
+  }
+  .product:hover .see {
+    bottom: 0;
+    opacity: 1;
   }
