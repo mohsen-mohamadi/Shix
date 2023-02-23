@@ -335,3 +335,6 @@ body {
 .conus a:hover {
   bottom: 70px;
 }
+.linet {
+  text-decoration: line-through;
+}
