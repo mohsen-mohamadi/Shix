@@ -319,3 +319,23 @@ body {
   text-align: center;
   padding: 20px;
 }
+.conus {
+  position: relative;
+  right: 0;
+}
+.conus a {
+  position: fixed;
+  bottom: -105px;
+  right: -80px;
+  text-decoration: none;
+  color: #d1d1d1;
+  rotate: 90deg;
+  background-color: #7c2191;
+  padding: 15px 60px;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+.conus a:hover {
+  bottom: 70px;
+
+}
