@@ -190,7 +190,6 @@ body {
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-
   }
   .product .see {
     width: 100%;
@@ -204,7 +203,7 @@ body {
     padding: 10px;
   }
   .product:hover .see {
-    bottom: 0;
+    bottom: -5px;
     opacity: 1;
   }
   .cvbr {
@@ -275,7 +274,6 @@ body {
     top: 0;
     color: #e4e5e7;
     overflow: hidden;
-    
   }
   .parallax .pas {
     background-color: hsla(0, 0%, 0%, 0.575);
