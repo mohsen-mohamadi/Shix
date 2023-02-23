@@ -297,7 +297,6 @@ body {
   display: block;
   color: #949494;
   text-decoration: none;
-
 }
 .rfv a:hover {
   transition: all 0.3s;
@@ -337,5 +336,4 @@ body {
 }
 .conus a:hover {
   bottom: 70px;
-
 }
