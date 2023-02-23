@@ -114,7 +114,6 @@ body {
     height: 100%;
     clear: both;
     margin: 0 auto;
-    /* list-style: none; */
     text-align: center;
     overflow: hidden;
     float: left;
@@ -214,7 +213,7 @@ body {
     z-index: 2;
     text-align: center;
   }
-  span {
+  .uybh {
     background: none repeat scroll 0 0 #fff;
     border: 1px solid #e4e5e7;
     border-radius: 5px;
@@ -264,7 +263,8 @@ body {
   }
   .parallax {
     background-image: url(../pic/TextBack.jpg);
-    background-color: #18181a;    max-width: 100%;
+    background-color: #18181a;    
+    max-width: 100%;
     height: 450px;
     background-attachment: fixed;
     background-position: center;
