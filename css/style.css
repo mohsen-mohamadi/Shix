@@ -1,7 +1,7 @@
 body {
     font-family: IRANSansWeb;
     color: #3d3d3d;
-    font-size: 13px;
+    font-size: 14px;
 }
 .mhead {
     position: fixed;
@@ -42,7 +42,6 @@ body {
     color: white;
     border-radius: 0 0 4px 4px;
     height: 100%;
-    
 }
 .mmhover:hover i {
     color: #ffffff;
@@ -91,7 +90,6 @@ body {
 .fvg {
     justify-content: center;
 }
-
 .zc:hover {
     color: #ffffff;
 }
@@ -108,26 +106,6 @@ body {
     font-size: 25px;
     margin-bottom: 10px;
 }
-
-/* .zb {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-}
-poi {
-    background-color: aqua;
-    margin-top: 30px;
-    position: relative;
-    overflow: hidden;
-} */
-/* .poi img {
-    height: 318px;
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
 .box {
     position: relative;
     cursor: pointer;
@@ -141,7 +119,6 @@ poi {
     overflow: hidden;
     float: left;
     clear: both;
-    
   }
   .box img {
     transition: all 0.5s;
@@ -199,7 +176,6 @@ poi {
   .prices {
     text-align: left;
     clear: both;
-    /* float: left; */
   }
   .product .aqw a {
     float: left;
@@ -214,7 +190,6 @@ poi {
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-
   }
   .product .see {
     width: 100%;
@@ -228,7 +203,7 @@ poi {
     padding: 10px;
   }
   .product:hover .see {
-    bottom: 0;
+    bottom: -5px;
     opacity: 1;
   }
   .cvbr {
@@ -236,6 +211,7 @@ poi {
     margin-right: auto;
     margin-top: -34px;
     position: relative;
+    z-index: 2;
     text-align: center;
   }
   span {
@@ -248,5 +224,117 @@ poi {
     padding: 6px 32px;
     position: relative;
     text-transform: uppercase;
-    z-index: 1;
+    z-index: 3;
   }
+  .price2 {
+    text-align: right;
+  }
+  .product a {
+    text-decoration: none;
+    color: #5a5a5a;
+  }
+  .badg {
+    position: absolute;
+    top: 25px;
+    right: -62px;
+    color: #fff;
+    background-color: #8e44ad;
+    rotate: 45deg;
+    width: 200px;
+    height: 25px;
+    padding: 0 20px;
+  }
+  .allp {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    border: none;
+    background-color: #8e44ad;
+    color: #fff;
+    font-size: 17px;
+    padding: 8px 40px;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+  .allp:hover {
+    border-radius: 0;
+  }
+  .parallax {
+    background-image: url(../pic/TextBack.jpg);
+    background-color: #18181a;    max-width: 100%;
+    height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    top: 0;
+    color: #e4e5e7;
+    overflow: hidden;
+  }
+  .parallax .pas {
+    background-color: hsla(0, 0%, 0%, 0.575);
+  }
+  .parallax img {
+    flex: auto;
+    justify-content: center;
+    margin: 100px 0 20px 0;
+    width: 400px;
+  }
+  .parallax button {
+    margin-bottom: 400px;
+  }
+  footer {
+    background-color: #18181a;
+    color: #d1d1d1;
+  }
+.rfv a {
+  display: block;
+  color: #949494;
+  text-decoration: none;
+}
+.rfv a:hover {
+  transition: all 0.3s;
+  margin-right: 10px;
+}
+.rfvb {
+  margin-top: -10px;
+}
+.rfvb img {
+  opacity: 50%;
+  transition: all 0.3s;
+  width: 90%;
+}
+.rfvb img:hover {
+  opacity: 100%;
+}
+.lqe {
+  background-color: #0c0c0c;
+  text-align: center;
+  padding: 20px;
+}
+.conus {
+  position: relative;
+  right: 0;
+}
+.conus a {
+  position: fixed;
+  bottom: -105px;
+  right: -80px;
+  text-decoration: none;
+  color: #fcfcfc;
+  rotate: 90deg;
+  background-color: #7c2191;
+  padding: 15px 60px;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+.conus a:hover {
+  bottom: 70px;
+}
+.linet {
+  text-decoration: line-through;
+}
