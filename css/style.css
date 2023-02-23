@@ -108,26 +108,6 @@ body {
     font-size: 25px;
     margin-bottom: 10px;
 }
-
-/* .zb {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-}
-poi {
-    background-color: aqua;
-    margin-top: 30px;
-    position: relative;
-    overflow: hidden;
-} */
-/* .poi img {
-    height: 318px;
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
 .box {
     position: relative;
     cursor: pointer;
@@ -236,6 +216,7 @@ poi {
     margin-right: auto;
     margin-top: -34px;
     position: relative;
+    z-index: 2;
     text-align: center;
   }
   span {
@@ -249,4 +230,41 @@ poi {
     position: relative;
     text-transform: uppercase;
     z-index: 3;
+  }
+  .price2 {
+    text-align: right;
+  }
+  .product a {
+    text-decoration: none;
+    color: #5a5a5a;
+  }
+  .badg {
+    position: absolute;
+    top: 25px;
+    right: -62px;
+    color: #fff;
+    background-color: #8e44ad;
+    rotate: 45deg;
+    width: 200px;
+    height: 25px;
+    padding: 0 20px;
+  }
+  .allp {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    border: none;
+    background-color: #8e44ad;
+    color: #fff;
+    font-size: 17px;
+    padding: 8px 40px;
+    border-radius: 20px;
+    transition: all 0.3s;
+
+  }
+  .allp:hover {
+    border-radius: 0;
   }
