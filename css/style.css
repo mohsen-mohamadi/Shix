@@ -58,7 +58,7 @@ body {
 .zx {
     margin-top: 150px;
 }
-@media screen and (max-width:992px) {
+@media screen and (max-width:1200px) {
     .hidden{
         display: none !important;
         visibility: hidden !important;    }
